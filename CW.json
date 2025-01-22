@@ -1,0 +1,40 @@
+{
+	"eula": "",
+	"vendor": "Meet PATEL",
+	"license": "",
+	"id": "com.sap.sac.sample.chord.prepared",
+	"version": "1.0.0",
+	"name": "Chord",
+	"newInstancePrefix": "Chord",
+	"description": "am4chart",
+	"webcomponents": [
+		{
+			"kind": "main",
+			"tag": "com-sap-sample-chord-prepared",
+			"url": "https://savani5700.github.io/MM-SAC-Custom-Widget.github.io/Chord_Main.js",
+			"integrity": "",
+			"ignoreIntegrity": true
+		}
+	],
+	"properties": {
+		"width": {
+			"type": "integer",
+			"default": 600
+		},
+		"height": {
+			"type": "integer",
+			"default": 420
+		}
+	},
+	"methods": {
+		"render": {
+			"description": "Render",
+			"parameters": []
+		}
+	},
+	"events": {
+		"onClick": {
+			"description": "Called when the user clicks the Box."
+		}
+	}
+}
